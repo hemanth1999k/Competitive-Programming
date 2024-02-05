@@ -1,0 +1,18 @@
+DFS - not optimal , complete (n^m),
+        space: (bm)
+BFS - complete, optimal (b^d),(b^d)
+DLFS - not complete if solutions is 
+        beyond the depth
+        T: (b^l) 
+        S:(b*l)
+        not optimal if l>d
+UCS - optimal,complete
+    worst - b
+Iter DFS - b^d, S:bd, optimal 
+            complete if branching factor is finite
+
+Alpha beta - for best case:O(b^m/2)
+             for worst case: O(b^m)
+Greedy - Incomplete, not optimal
+            b^m, b^m
+            m - maximum depth of search space
